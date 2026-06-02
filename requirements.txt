@@ -1,0 +1,41 @@
+# LangChain ecosystem
+langchain==0.1.9
+langchain-openai==0.0.8
+langchain-community==0.0.24
+
+# Vector DB
+chromadb==0.4.22
+pinecone-client==3.0.3
+
+# Sparse retrieval + reranking
+rank-bm25==0.2.2
+flashrank==0.2.0
+sentence-transformers==2.4.0
+
+# RAG evaluation
+ragas==0.1.5
+
+# Hallucination monitoring
+trulens-eval==0.27.2
+
+# LLM
+openai==1.12.0
+
+# API
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.6.0
+mangum==0.17.0
+httpx==0.26.0
+
+# Data
+datasets==2.17.0
+pandas==2.2.0
+numpy==1.26.4
+
+# Testing
+pytest==8.0.0
+locust==2.23.1
+
+# Notebook
+jupyter==1.0.0
